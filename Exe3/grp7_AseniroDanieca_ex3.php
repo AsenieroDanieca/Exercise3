@@ -35,7 +35,7 @@ if (file_exists($filename)) {
     echo "File does not exist! Creating a new file.<br>";
     
     // file_put_contents()
-    $new_content = "Hello My name is Junjell Sayson.\nI'am a 3rd Year IT College Student.";
+    $new_content = "Hello My name is Danieca Aseniero.\nI'am a 3rd Year IT College Student.";
     file_put_contents($filename, $new_content);
     echo "File created and content written using file_put_contents().<br>";
 }
